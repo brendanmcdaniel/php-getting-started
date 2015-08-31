@@ -22,6 +22,7 @@ pcntl_signal(SIGTERM, $handler);
 //now listen for signals for every 0.25 seconds and then sleep
 while(true){
   usleep(25000);
+  echo "checking in";
   pcntl_signal_dispatch();
 }
 
