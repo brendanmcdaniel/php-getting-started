@@ -1,1 +1,1 @@
-web: php ./test.php
+worker: php ./test.php
