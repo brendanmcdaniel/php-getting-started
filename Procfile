@@ -1,1 +1,1 @@
-worker: hs listen.sh
+worker: sh listen.sh
