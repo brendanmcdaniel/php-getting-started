@@ -1,1 +1,1 @@
-worker: sh listen.sh
+worker: php test.php
