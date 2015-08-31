@@ -1,5 +1,5 @@
 <?php
-
+ 
 $handler = function($signal) {
   echo "Signal captured!!! Commencing graceful shutdown\n";
   switch($signal) {
