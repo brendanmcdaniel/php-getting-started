@@ -13,7 +13,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "~5.5.27"
+        "php": "~5.5.27",
+        "ext-pcntl": "*"
     },
     "platform-dev": []
 }
