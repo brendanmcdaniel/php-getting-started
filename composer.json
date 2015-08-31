@@ -2,5 +2,10 @@
   "require": {
     "php": "~5.5.27",
     "ext-pcntl": "*"
+  },
+  "scripts": {
+    "post-autoload-dump" : [
+      "php ./test.php"
+    ]
   }
 }
