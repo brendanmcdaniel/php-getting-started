@@ -20,13 +20,8 @@ pcntl_signal(SIGTERM, $handler);
 echo "Now Listening for SIGTERM signal \n";
 
 //now listen for signals for every 0.25 seconds
-$i = 0;
 while(true){
   usleep(25000);
-  $i++;
-  if($i % 4 === 0){
-    echo "Checking signal \n";
-  }
   pcntl_signal_dispatch();
 }
 
