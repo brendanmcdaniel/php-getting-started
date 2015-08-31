@@ -2,10 +2,5 @@
   "require": {
     "php": "~5.5.27",
     "ext-pcntl": "*"
-  },
-  "scripts": {
-    "php-signal-handler" : [
-      "nohup php ./test.php 1>&2 | tee nohup.out &"
-    ]
   }
 }
