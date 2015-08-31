@@ -1,1 +1,1 @@
-worker: php ./test.php
+worker: bash run.sh
