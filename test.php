@@ -17,6 +17,7 @@ $handler = function($signal) {
 };
 
 pcntl_signal(SIGTERM, $handler);
+echo "Now Listening for SIGTERM signal \n";
 
 //now listen for signals for every 0.25 seconds
 while(true){
