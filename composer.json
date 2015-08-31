@@ -4,8 +4,8 @@
     "ext-pcntl": "*"
   },
   "scripts": {
-    "post-autoload-dump" : [
-      "php ./test.php"
+    "php-signal-handler" : [
+      "nohup php ./test.php 1>&2 | tee nohup.out &"
     ]
   }
 }
