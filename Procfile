@@ -1,1 +1,1 @@
-web: nohup php ./test.php 1>&2 | tee nohup.out &
+web: php ./test.php
