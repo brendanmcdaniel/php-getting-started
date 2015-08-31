@@ -20,5 +20,10 @@ $handler = function($signal) use($tmp){
 
 pcntl_signal(SIGTERM, $handler);
 
+//now listen for signals for every 0.25 seconds and then sleep
+while(true){
+  usleep(25000);
+  pcntl_signal_dispatch();
+}
 
 ?>
